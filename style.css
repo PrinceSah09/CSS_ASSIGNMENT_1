@@ -1,0 +1,72 @@
+/* Resetting default margin, padding, and font size for all elements */
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+/* Global styles for the body */
+body {
+    padding-left: 11em;
+    color: #80007E;
+    background-color: #d8da3d;
+    font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+}
+
+
+/* --------------------Navbar Styling--------------------- */
+
+/* Styling for the navigation list */
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em;
+}
+
+/* Styling for individual list items in the navigation */
+ul.navbar li {
+    background: white;
+    padding: 0.3em;
+    border-right: 16px solid black;
+    margin: 0.5em 0;
+    width: 215px;
+    height: 20px;
+}
+
+/* Styling for links within the navigation */
+ul.navbar a {
+    text-decoration: none;
+}
+
+/* --------------------Section Styling--------------------- */
+
+/* Styling for sections */
+.section {
+    margin: 25px 0 0 90px;
+}
+
+/* Styling for section headings */
+.section h1 {
+    font-size: 32px;
+}
+
+/* Styling for paragraph within sections */
+.section p {
+    margin: 20px 0 20px 0;
+}
+
+/* Styling for visited links */
+a:visited {
+    color: #80007E;
+}
+
+/* Styling for address element */
+address {
+    border-top: thin dotted;
+    padding-top: 1em;
+    margin-top: 50px;
+}
